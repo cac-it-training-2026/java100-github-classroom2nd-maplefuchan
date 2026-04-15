@@ -99,6 +99,7 @@ public class Patisserie {
 		double chocolatPer = 100 * chocolatPrice / totalPrice;
 		double pistachePer = 100 * pistachePrice / totalPrice;
 
+		System.out.println("\n内訳");
 		System.out.println("シトロン　　　\\" + 250 * (int) citronBuyCount + "・・・" + (int) citronPer + "%");
 		System.out.println("ショコラ　　　\\" + 280 * (int) chocolatBuyCount + "・・・" + (int) chocolatPer + "%");
 		System.out.println("ピスターシュ　\\" + 320 * (int) pistacheBuyCount + "・・・" + (int) pistachePer + "%");
