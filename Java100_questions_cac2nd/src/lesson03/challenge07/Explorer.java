@@ -83,15 +83,15 @@ public class Explorer {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
 		//ここにwhile文、if文を利用した処理を記述
+		while (i < 3) {
 
-
-		if (i == 3) {
-			System.out.println("隊長：");
-			System.out.println("川を渡り切りました。");
-		} else {
-			System.out.println("通り抜けに失敗しました...");
+			if (i == 3) {
+				System.out.println("隊長：");
+				System.out.println("川を渡り切りました。");
+			} else {
+				System.out.println("通り抜けに失敗しました...");
+			}
 		}
 
 	}
