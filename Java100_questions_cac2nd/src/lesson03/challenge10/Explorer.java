@@ -83,9 +83,11 @@ public class Explorer {
 		//ここにfor文のネスト、if文を利用した処理を記述する。
 		for (int i = 13; i < 24; i++) {
 			for (int j = 0; j < 60; j++) {
+
 				if (i == 13 && j == 0) {
 					j = 30;
 				}
+
 				if (i == 16 && j == 30) {
 					System.out.println("隊長：");
 					System.out.println("16:30 時間になったよ\n");
@@ -93,11 +95,13 @@ public class Explorer {
 					System.out.println("やったー！宝物だー！");
 					break;
 				}
+
 				if (j % 15 == 0) {
 					System.out.println("隊長：");
 					System.out.printf("%d:%02d 待ち遠しいな～%n%n", i, j);
 				}
 			}
+
 			if (i == 16) {
 				break;
 			}
