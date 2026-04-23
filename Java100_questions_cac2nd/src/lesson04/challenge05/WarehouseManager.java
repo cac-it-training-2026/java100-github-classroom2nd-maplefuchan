@@ -39,7 +39,6 @@ public class WarehouseManager {
 		boolean loopFlag = false;
 
 		//ここに重複チェックおよび値の代入処理を記述する
-		boolean hitFlag = false;
 		for (int i = 0; i < ABKosanArray.length; i++) {
 			do {
 				loopFlag = false;
