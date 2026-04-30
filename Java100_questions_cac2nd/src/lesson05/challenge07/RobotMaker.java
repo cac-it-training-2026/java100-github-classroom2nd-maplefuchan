@@ -60,7 +60,6 @@ class Robot {
 
 	int getWater() {
 		return water;
-		System.out.println();
 	}
 }
 
