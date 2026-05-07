@@ -28,6 +28,46 @@
 
 package lesson01.challenge04;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Patisserie {
+	public static void main(String[] args) throws IOException {
+
+		System.out.println("たいへんお待たせしました。");
+		System.out.println("【ポエール・ネルメ】");
+		System.out.println("ただいまより開店です！！");
+
+		int sitr = 30;
+		int shoc = 30;
+		int pist = 30;
+
+		System.out.println("\n本日のおすすめ商品です。\n");
+		System.out.println("シトロン     \\250 ・・・ 残り" + sitr + "個");
+		System.out.println("ショコラ     \\280 ・・・ 残り" + shoc + "個");
+		System.out.println("ピスターシュ \\320 ・・・ 残り" + pist + "個");
+
+		System.out.println("それぞれ何個ずつ買いますか？");
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("シトロン");
+		String sitrbuystr = br.readLine();
+		int sitrbuy = Integer.parseInt(sitrbuystr);
+
+		System.out.println("ショコラ");
+		String shocobuystr = br.readLine();
+		int shocbuy = Integer.parseInt(shocobuystr);
+
+		System.out.println("ピスターシュ");
+		String pistbuystr = br.readLine();
+		int pistbuy = Integer.parseInt(pistbuystr);
+
+		System.out.println("シトロン　　" + sitrbuystr + "個");
+		System.out.println("ショコラ　　" + shocobuystr + "個");
+		System.out.println("ピスターシュ" + pistbuystr + "個");
+		System.out.println("をお買い上げですね。\n承りました。");
+
+	}
 
 }
